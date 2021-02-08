@@ -1,29 +1,14 @@
-.bloc1{
+.city{
     height: 10%;
     background-color: gainsboro;
     padding: 0px 10px;
     margin: 10px;
     /*display: flex;*/
     font-size:20px;
+    display: flex;
+    flex-wrap:wrap;
 }
 
-.bloc2{
-   height: 10%;
-   background-color: gainsboro;
-   padding: 0px 10px;
-   margin: 10px;
-   /*display: flex;*/
-   font-size:20px;
-}
-
-.bloc3{
-   height: 10%;
-   background-color: gainsboro;
-   padding: 0px 10px;
-   margin: 10px;
-   /*display: flex;*/
-   font-size:20px;
-}
 
 .title{
     text-align: center;
@@ -31,26 +16,12 @@
     background-color: rgb(5, 0, 0);
     padding: 0px 10px;
     margin: 10px;
-    display: flex;
-    flex-wrap:wrap;
  
 }
 
-.bloc1{
-   display: flex;
-    flex-wrap:wrap;
-}
-
-.bloc2{
-   display: flex;
-    flex-wrap:wrap;
-
-}
-
-.bloc3{
-   display: flex;
-    flex-wrap:wrap;
-
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
 }
 
 body{
@@ -62,6 +33,7 @@ h1{color: rgb(247, 244, 244)}
 
 img{
    width: 150px;
+   margin: 10% 10%;
 }
 
 @media screen and (max-width: 640px){
