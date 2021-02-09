@@ -9,12 +9,18 @@
     flex-wrap:wrap;
 }
 
+footer{
+    text-align: center;
+    height: 10%;
+    background-color: rgb(151, 150, 150);
+    padding: 0px 10px;
+    margin: 10px;
+}
 
 .title{
     text-align: center;
-    height: 10%;
+    height: 50px;
     background-color: rgb(5, 0, 0);
-    padding: 0px 10px;
     margin: 10px;
  
 }
@@ -22,6 +28,7 @@
 select {
     font-size: .9rem;
     padding: 2px 5px;
+    margin: 10px;
 }
 
 body{
@@ -42,6 +49,12 @@ img{
       display: flex;
       flex-direction: row;
    }
+   
+   footer{
+      font-size:1rem;
+      display: flex;
+      flex-direction: row
+   }
 
    img{
       width: 40px;
@@ -57,9 +70,17 @@ img{
       font-size:1.5rem;
    }
 
+   footer{
+      font-size:1rem;
+      display: flex;
+      flex-direction: row
+   }
+
    img{
       width: 100px;
    }
+
+   foote
 
    .title{
       font-size:1.25rem;
